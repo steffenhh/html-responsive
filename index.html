@@ -2,13 +2,28 @@
 <html lang="de">
 <meta charset="UTF-8">
 <title>SVG Grafiken</title>
+<link rel="stylesheet" href="assets/index.css">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <body>
-  <!--
-    <div style="position: absolute;left:100px">
+  <div id='myGridContainer' class="grid-container">
+    <div class="grid-item">1</div>
+    <div class="grid-item">
       <svg height="200" width="200" xmlns="http://www.w3.org/2000/svg">
         <circle r="45" cx="100" cy="100" fill="green" stroke="green" stroke-width="3" />
       </svg>
+    </div>
+    <div class="grid-item">3</div>
+    <div class="grid-item">4</div>
+    <div class="grid-item">
+      <img src="assets/circle.svg">
+    </div>
+    <div class="grid-item">6</div>
+    <div class="grid-item">7</div>
+    <div class="grid-item">8</div>
+    <div class="grid-item">9</div>
+  </div>
+  <!--
+    <div style="position: absolute;left:100px">
     </div>
     <div style="position: absolute;">
       <svg height="200" width="200" xmlns="http://www.w3.org/2000/svg">
@@ -23,4 +38,5 @@
 -->
 <img src="assets/circle.svg">
 </body>
+<script src="assets/index.js"></script>
 </html>
